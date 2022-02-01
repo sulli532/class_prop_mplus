@@ -1,11 +1,12 @@
-# IGP
+# class_prop_mplus
 
-IGP is the International Grade Placement index. This is a measure of Opportunity to Learn (OTL) based on survey responses to the 2012 PISA survey and weights derived from the mathematics curriculum matrix developed during TIMMS 1995.
+This project just creates a function that calculates the appropriate parameters for
+an MPlus .inp file to set the class proportions for a MCMC simulation study.
 
 ## Files
 
-igp.r is the script that calculates the index
-igp.rmd is the markdown document that describes the theoretical foundations of the index.
+class_prop_mplus.r is the script creates the function.
+class_prop_mplus.rmd is the markdown document that describes the function.
 
 
 ## License
