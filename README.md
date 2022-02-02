@@ -15,8 +15,8 @@ No installer just yet. I'll make this a small package eventually.
 ## Usage
 
 ```r
-# returns 'mplus_code'
-class_prop_mplus('classes', 'proportions')
+# returns 'vector of logits'
+class_prop_mplus(c(vector of proportions))
 ```
 
 
