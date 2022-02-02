@@ -7,9 +7,10 @@
 #                               for a MCMC simulation in MPlus.
 # *******************************************************************************
 
-class_prop_mplus <- function(class_props = c(1,1,1)){
-  class_1 = (exp(class_props[1])/sum(exp(class_props)))
-  return(class_1)
+class_prop_mplus <- function(class_props = c(.5,.25,.25)){
+  last_class <- class_props[length(class_props)]
+  class_log = log(class_props/last_class)
+  return(class_log)
 }
 
 class_prop_mplus()
